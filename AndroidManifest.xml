@@ -52,7 +52,7 @@
         <!-- For debugging -->
         <!-- 
         <activity
-            android:name="edu.vub.at.nfcpoker.smartwatch.UpdateActivity"
+            android:name="edu.vub.at.nfcpoker.smartwatch.debug.UpdateActivity"
             android:label="@string/title_activity_update" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

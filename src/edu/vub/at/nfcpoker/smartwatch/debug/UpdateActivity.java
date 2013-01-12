@@ -1,5 +1,7 @@
-package edu.vub.at.nfcpoker.smartwatch;
+package edu.vub.at.nfcpoker.smartwatch.debug;
 
+import edu.vub.at.nfcpoker.smartwatch.R;
+import edu.vub.at.nfcpoker.smartwatch.WePokerWidgetExtension;
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
