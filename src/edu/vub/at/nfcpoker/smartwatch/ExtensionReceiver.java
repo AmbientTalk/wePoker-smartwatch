@@ -9,7 +9,7 @@ public class ExtensionReceiver extends BroadcastReceiver {
 
 	@Override
 	public void onReceive(Context context, Intent intent) {
-        Log.d("wePoker service", "onReceive: " + intent.getAction());
+        Log.d("wePoker-sw ExtensionReceiver", "onReceive: " + intent.getAction());
         intent.setClass(context, WePokerSWService.class);
         context.startService(intent);
 	}

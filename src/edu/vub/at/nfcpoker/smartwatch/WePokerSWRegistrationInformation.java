@@ -7,8 +7,7 @@ import com.sonyericsson.extras.liveware.aef.registration.Registration;
 import com.sonyericsson.extras.liveware.extension.util.ExtensionUtils;
 import com.sonyericsson.extras.liveware.extension.util.registration.RegistrationInformation;
 
-public class WePokerSWRegistrationInformation extends
-		RegistrationInformation {
+public class WePokerSWRegistrationInformation extends RegistrationInformation {
 	
 	private Context mContext;
 

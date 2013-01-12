@@ -47,9 +47,9 @@ public class WePokerWidgetExtension extends WidgetExtension {
 			
 			@Override
 			public void onReceive(Context context, Intent intent) {
-				Log.d("wePoker service", "received intent" + intent);
+				Log.d("wePoker-sw WidgetExtension", "received intent" + intent);
 				mProbability = intent.getDoubleExtra("probability", -1);
-				Log.d("wePoker service", "new probability: " + mProbability);
+				Log.d("wePoker-sw WidgetExtension", "new probability: " + mProbability);
 				mHandler.post(new Runnable() {
 					
 					@Override

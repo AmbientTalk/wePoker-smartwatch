@@ -33,6 +33,6 @@ public class WePokerSWService extends ExtensionService {
 	@Override
 	public void onStart(Intent intent, int startId) {
 		super.onStart(intent, startId);
-		Log.d("wePoker service", "start");
+		Log.d("wePoker-sw service", "start");
 	}
 }
