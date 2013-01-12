@@ -6,4 +6,4 @@ wePoker does not need a connection to the internet, everything happens using loc
 On newer devices, wePoker will even use Wifi-Direct and NFC!
 
 This repository houses the add-on to interface with the Sony Smartwatch.
-For the real wePoker repository, see AmbientTalk/wePoker.
+For the real wePoker repository, see http://github.com/AmbientTalk/wePoker.
