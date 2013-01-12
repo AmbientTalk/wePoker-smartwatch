@@ -29,7 +29,7 @@ public class WePokerWidgetExtension extends WidgetExtension {
 	private BroadcastReceiver mReceiver;
 	private IntentFilter mFilter;
 
-	protected double mProbability = -1;
+	private static double mProbability = -1;
 
 	private final BitmapFactory.Options mBitmapOptions;
 
